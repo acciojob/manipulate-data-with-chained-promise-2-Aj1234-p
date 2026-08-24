@@ -19,7 +19,7 @@ function filterEvenNumber(arr){
   return new Promise((resolve,reject)=>{
       setTimeout(()=>{
         resolve(evenArray);
-      },4000)
+      },4200)
   })
 }
 
@@ -33,7 +33,7 @@ function multiplyEvenNumbers(arr){
   return new Promise((resolve,reject)=>{
     setTimeout(()=>{      
        resolve(multiplyArray);
-    },6000);
+    },2000);
   })
 }
 let evenData;
